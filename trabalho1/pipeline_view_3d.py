@@ -104,7 +104,7 @@ def scale(sx, sy, sz):
     ])
     matrizModelo = S.dot(matrizModelo)
 
-def rotação_x(angulo):
+def rotacao_x(angulo):
     global matrizModelo
     rad = np.radians(angulo)
     R = np.array([
@@ -115,7 +115,7 @@ def rotação_x(angulo):
     ])
     matrizModelo = R.dot(matrizModelo)
 
-def rotação_y(angulo):
+def rotacao_y(angulo):
     global matrizModelo
     rad = np.radians(angulo)
     R = np.array([
@@ -126,7 +126,7 @@ def rotação_y(angulo):
     ])
     matrizModelo = R.dot(matrizModelo)
 
-def rotação_z(angulo):
+def rotacao_z(angulo):
     global matrizModelo
     rad = np.radians(angulo)
     R = np.array([
